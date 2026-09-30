@@ -1,0 +1,320 @@
+[
+ {
+  "request": {
+   "model": "jev-1.13.0",
+   "state": "The number two plus two equals four.",
+   "questions": {
+    "q": {
+     "type": "choice",
+     "instructions": "Is this statement true or false? \u2014 STATEMENT: The number two plus two equals four.",
+     "criteria": {
+      "true": "This statement is factually correct.",
+      "false": "This statement is factually incorrect.",
+      "uncertain": "There is not enough information to judge it."
+     }
+    }
+   }
+  },
+  "response": {
+   "model": "jev-1.13.0",
+   "answers": {
+    "q": {
+     "type": "choice",
+     "choice": "true",
+     "confidence": 1.0,
+     "probabilities": {
+      "uncertain": 0.0,
+      "false": 0.0,
+      "true": 1.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 364,
+    "output_tokens": 40
+   }
+  },
+  "answers": [
+   {
+    "qid": "q",
+    "kind": "choice",
+    "verdict": "true",
+    "probability": 1.0,
+    "distribution": {
+     "uncertain": 0.0,
+     "false": 0.0,
+     "true": 1.0
+    },
+    "confidence": 1.0,
+    "ok": true,
+    "note": ""
+   }
+  ],
+  "elapsed_s": 0.397
+ },
+ {
+  "request": {
+   "model": "jev-1.13.0",
+   "state": "The number two plus two equals five.",
+   "questions": {
+    "q": {
+     "type": "choice",
+     "instructions": "Is this statement true or false? \u2014 STATEMENT: The number two plus two equals five.",
+     "criteria": {
+      "true": "This statement is factually correct.",
+      "false": "This statement is factually incorrect.",
+      "uncertain": "There is not enough information to judge it."
+     }
+    }
+   }
+  },
+  "response": {
+   "model": "jev-1.13.0",
+   "answers": {
+    "q": {
+     "type": "choice",
+     "choice": "false",
+     "confidence": 1.0,
+     "probabilities": {
+      "uncertain": 0.0,
+      "false": 1.0,
+      "true": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 364,
+    "output_tokens": 40
+   }
+  },
+  "answers": [
+   {
+    "qid": "q",
+    "kind": "choice",
+    "verdict": "false",
+    "probability": 1.0,
+    "distribution": {
+     "uncertain": 0.0,
+     "false": 1.0,
+     "true": 0.0
+    },
+    "confidence": 1.0,
+    "ok": true,
+    "note": ""
+   }
+  ],
+  "elapsed_s": 0.4
+ },
+ {
+  "request": {
+   "model": "jev-1.13.0",
+   "state": "Water is dry.",
+   "questions": {
+    "q": {
+     "type": "choice",
+     "instructions": "Is this statement true or false? \u2014 STATEMENT: Water is dry.",
+     "criteria": {
+      "true": "This statement is factually correct.",
+      "false": "This statement is factually incorrect.",
+      "uncertain": "There is not enough information to judge it."
+     }
+    }
+   }
+  },
+  "response": {
+   "model": "jev-1.13.0",
+   "answers": {
+    "q": {
+     "type": "choice",
+     "choice": "false",
+     "confidence": 1.0,
+     "probabilities": {
+      "false": 1.0,
+      "true": 0.0,
+      "uncertain": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 356,
+    "output_tokens": 40
+   }
+  },
+  "answers": [
+   {
+    "qid": "q",
+    "kind": "choice",
+    "verdict": "false",
+    "probability": 1.0,
+    "distribution": {
+     "false": 1.0,
+     "true": 0.0,
+     "uncertain": 0.0
+    },
+    "confidence": 1.0,
+    "ok": true,
+    "note": ""
+   }
+  ],
+  "elapsed_s": 0.5
+ },
+ {
+  "request": {
+   "model": "jev-1.13.0",
+   "state": "Paris is the capital of France.",
+   "questions": {
+    "q": {
+     "type": "choice",
+     "instructions": "Is this statement true or false? \u2014 STATEMENT: Paris is the capital of France.",
+     "criteria": {
+      "true": "This statement is factually correct.",
+      "false": "This statement is factually incorrect.",
+      "uncertain": "There is not enough information to judge it."
+     }
+    }
+   }
+  },
+  "response": {
+   "model": "jev-1.13.0",
+   "answers": {
+    "q": {
+     "type": "choice",
+     "choice": "true",
+     "confidence": 1.0,
+     "probabilities": {
+      "false": 0.0,
+      "true": 1.0,
+      "uncertain": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 362,
+    "output_tokens": 40
+   }
+  },
+  "answers": [
+   {
+    "qid": "q",
+    "kind": "choice",
+    "verdict": "true",
+    "probability": 1.0,
+    "distribution": {
+     "false": 0.0,
+     "true": 1.0,
+     "uncertain": 0.0
+    },
+    "confidence": 1.0,
+    "ok": true,
+    "note": ""
+   }
+  ],
+  "elapsed_s": 0.514
+ },
+ {
+  "request": {
+   "model": "jev-1.13.0",
+   "state": "Paris is the capital of Spain.",
+   "questions": {
+    "q": {
+     "type": "choice",
+     "instructions": "Is this statement true or false? \u2014 STATEMENT: Paris is the capital of Spain.",
+     "criteria": {
+      "true": "This statement is factually correct.",
+      "false": "This statement is factually incorrect.",
+      "uncertain": "There is not enough information to judge it."
+     }
+    }
+   }
+  },
+  "response": {
+   "model": "jev-1.13.0",
+   "answers": {
+    "q": {
+     "type": "choice",
+     "choice": "false",
+     "confidence": 1.0,
+     "probabilities": {
+      "uncertain": 0.0,
+      "true": 0.0,
+      "false": 1.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 362,
+    "output_tokens": 40
+   }
+  },
+  "answers": [
+   {
+    "qid": "q",
+    "kind": "choice",
+    "verdict": "false",
+    "probability": 1.0,
+    "distribution": {
+     "uncertain": 0.0,
+     "true": 0.0,
+     "false": 1.0
+    },
+    "confidence": 1.0,
+    "ok": true,
+    "note": ""
+   }
+  ],
+  "elapsed_s": 0.486
+ },
+ {
+  "request": {
+   "model": "jev-1.13.0",
+   "state": "A 10x10 field is being corrected. The left and right sides of a seam disagree while every cell agrees with its own neighbours. The free local-noise statistic is blind to this. Does a wide-reading model beat it here?",
+   "questions": {
+    "q": {
+     "type": "choice",
+     "instructions": "Does a wide-reading model beat a blind local statistic on cross-seam structure?",
+     "criteria": {
+      "yes": "The model reads structure a local statistic provably cannot, and beats it.",
+      "no": "The model does not beat the local statistic, or the comparison is uninformative.",
+      "uncertain": "There is not enough information to judge."
+     }
+    }
+   }
+  },
+  "response": {
+   "model": "jev-1.13.0",
+   "answers": {
+    "q": {
+     "type": "choice",
+     "choice": "yes",
+     "confidence": 0.96,
+     "probabilities": {
+      "uncertain": 0.01,
+      "yes": 0.98,
+      "no": 0.01
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 421,
+    "output_tokens": 40
+   }
+  },
+  "answers": [
+   {
+    "qid": "q",
+    "kind": "choice",
+    "verdict": "yes",
+    "probability": 0.98,
+    "distribution": {
+     "uncertain": 0.01,
+     "yes": 0.98,
+     "no": 0.01
+    },
+    "confidence": 0.96,
+    "ok": true,
+    "note": ""
+   }
+  ],
+  "elapsed_s": 0.499
+ }
+]
